@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"allowJs": true,
+		"module": "ESnext",
+		"strict": true,
+		"outDir": "./dist",
+		"sourceMap": true,
+		"esModuleInterop": true,
+		"noImplicitAny": true,
+		"lib": ["es2017", "dom"],
+		"rootDir": "./src"
+	}
+}

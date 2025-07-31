@@ -1,0 +1,16 @@
+{
+  "name": "dustyschool-6.4-templateengine.ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf dist && mkdir dist && cp ./src/index.html ./dist && tsc",
+    "start": "npx http-server ./dist ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "typescript": "5.8.3"
+  }
+}
